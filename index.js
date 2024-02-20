@@ -1,12 +1,3 @@
-const adyenEncrypt = (versionParam) => {
-    const version = getVersion(~~versionParam);
-    return require("./lib/0_1_" + version);
-};
+import * as version_0_1_18 from "./lib/0_1_18";
 
-const availableVersions = [18, 22, 23, 24, 25];
-
-const getVersion = (version) => {
-    return availableVersions.includes(version) ? version : 24;
-};
-
-module.exports = adyenEncrypt;
+module.exports = version_0_1_18;
