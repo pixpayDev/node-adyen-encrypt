@@ -1,6 +1,6 @@
 {
     "name": "pixpay-node-adyen-encrypt",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Adyen encryption for Node.js.",
     "main": "index.js",
     "types": "types.d.ts",
